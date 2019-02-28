@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Przedborowa
+  m_Shader: {fileID: 4800000, guid: feb3bc85c7b75406d8620ca7f8f65fa7, type: 3}
+  m_ShaderKeywords: _ALPHABLEND_ON _DETAIL_MULX2 _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 9}
+        m_Offset: {x: 0.51702136, y: 0.17756617}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 2800000, guid: 6c9931d20b91f41b5b7e54cfc0b6fa23, type: 3}
+        m_Scale: {x: 7, y: 8}
+        m_Offset: {x: 0.79441, y: 0.9461378}
+    - _DetailMask:
+        m_Texture: {fileID: 2800000, guid: 6c9931d20b91f41b5b7e54cfc0b6fa23, type: 3}
+        m_Scale: {x: 1, y: 5}
+        m_Offset: {x: 0.51572675, y: 0.20155597}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 8}
+        m_Offset: {x: 0.4332196, y: 0.65322745}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 9}
+        m_Offset: {x: 0.82579005, y: 0.3237458}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 9}
+        m_Offset: {x: 0.6714575, y: 0.2732175}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 9}
+        m_Offset: {x: 0.7329583, y: 0.6870445}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: -0.00016498103
+    - _Cutoff: 0.529124
+    - _DetailNormalMapScale: 0.27660453
+    - _DstBlend: 10
+    - _GlossMapScale: 0.703299
+    - _Glossiness: 0.12406255
+    - _GlossyReflections: 0
+    - _Metallic: 0.3683505
+    - _Mode: 0
+    - _OcclusionStrength: 0.08764411
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
+    - _UVSec: 0
+    - _ZWrite: 0
+    m_Colors:
+    - _Color: {r: 1, g: 0.56384605, b: 0.86389136, a: 0.7722848}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

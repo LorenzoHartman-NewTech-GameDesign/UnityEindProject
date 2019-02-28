@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Technetium
+  m_Shader: {fileID: 4800000, guid: feb3bc85c7b75406d8620ca7f8f65fa7, type: 3}
+  m_ShaderKeywords: _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 8}
+        m_Offset: {x: 0.11690843, y: 0.9598386}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 2}
+        m_Offset: {x: 0.4816882, y: 0.8163521}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 4, y: 0}
+        m_Offset: {x: 0.62458724, y: 0.18359303}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 0}
+        m_Offset: {x: 0.68647575, y: 0.34368044}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 0}
+        m_Offset: {x: 0.6202337, y: 0.9539435}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 7}
+        m_Offset: {x: 0.7189727, y: 0.12233889}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 6, y: 1}
+        m_Offset: {x: 0.33711916, y: 0.1687485}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: -0.0001488484
+    - _Cutoff: 0.7904058
+    - _DetailNormalMapScale: -0.00040496094
+    - _DstBlend: 0
+    - _GlossMapScale: 0.51659566
+    - _Glossiness: 0.88727987
+    - _GlossyReflections: 0
+    - _Metallic: 0.84333926
+    - _Mode: 0
+    - _OcclusionStrength: 0.56209844
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.06898022, g: 1, b: 0.2516724, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

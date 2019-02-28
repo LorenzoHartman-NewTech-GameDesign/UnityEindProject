@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Pollucite
+  m_Shader: {fileID: 4800000, guid: feb3bc85c7b75406d8620ca7f8f65fa7, type: 3}
+  m_ShaderKeywords: _EMISSION _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 1}
+        m_Offset: {x: 0.34944612, y: 0.17722452}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 7, y: 9}
+        m_Offset: {x: 0.4217674, y: 0.7395117}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 0}
+        m_Offset: {x: 0.44897753, y: 0.21242023}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 7}
+        m_Offset: {x: 0.9275863, y: 0.18897784}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 6c9931d20b91f41b5b7e54cfc0b6fa23, type: 3}
+        m_Scale: {x: 8, y: 9}
+        m_Offset: {x: 0.97248983, y: 0.7142954}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 0}
+        m_Offset: {x: 0.067287326, y: 0.5015417}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 3}
+        m_Offset: {x: 0.32524294, y: 0.5957617}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 8}
+        m_Offset: {x: 0.79592943, y: 0.1868943}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 0.014774993
+    - _Cutoff: 0.55896235
+    - _DetailNormalMapScale: 0.4541136
+    - _DstBlend: 0
+    - _GlossMapScale: 0.74504393
+    - _Glossiness: 0.5925614
+    - _GlossyReflections: 1
+    - _Metallic: 0.8651746
+    - _Mode: 0
+    - _OcclusionStrength: 0.25487223
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 1
+    - _SpecularHighlights: 0
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 0.97885895, b: 0.743014, a: 1}
+    - _EmissionColor: {r: 0.6492929, g: 0.248987, b: 0.08612701, a: 1}

@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Alunite
+  m_Shader: {fileID: 4800000, guid: feb3bc85c7b75406d8620ca7f8f65fa7, type: 3}
+  m_ShaderKeywords: _DETAIL_MULX2 _EMISSION _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0, y: 0}
+        m_Offset: {x: 0.33980697, y: 0.17081642}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 1}
+        m_Offset: {x: 0.59820515, y: 0.015919924}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 0}
+        m_Offset: {x: 0.25657302, y: 0.72535026}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 2800000, guid: 55b36af2d696a423f8d910596b9ec7cc, type: 3}
+        m_Scale: {x: 8, y: 9}
+        m_Offset: {x: 0.43295783, y: 0.24133813}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 9}
+        m_Offset: {x: 0.66170835, y: 0.091314435}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 8}
+        m_Offset: {x: 0.77233446, y: 0.46569508}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 8}
+        m_Offset: {x: 0.08658874, y: 0.78757524}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 7, y: 8}
+        m_Offset: {x: 0.07450402, y: 0.14059377}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 0.8635494
+    - _Cutoff: 0.62492
+    - _DetailNormalMapScale: -0.00043918175
+    - _DstBlend: 0
+    - _GlossMapScale: 0.07582004
+    - _Glossiness: 0.78439903
+    - _GlossyReflections: 0
+    - _Metallic: 0.7575896
+    - _Mode: 0
+    - _OcclusionStrength: 0.9257586
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 0.26156718, b: 0.08965695, a: 1}
+    - _EmissionColor: {r: 0.27733874, g: 0.41146356, b: 0.31789178, a: 1}

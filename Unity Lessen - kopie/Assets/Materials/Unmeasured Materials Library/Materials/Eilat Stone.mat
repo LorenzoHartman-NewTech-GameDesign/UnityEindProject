@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Eilat Stone
+  m_Shader: {fileID: 4800000, guid: feb3bc85c7b75406d8620ca7f8f65fa7, type: 3}
+  m_ShaderKeywords: _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 8}
+        m_Offset: {x: 0.68654215, y: 0.87492144}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 9}
+        m_Offset: {x: 0.31872255, y: 0.17022276}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 9}
+        m_Offset: {x: 0.18071842, y: 0.037551165}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 8}
+        m_Offset: {x: 0.18723524, y: 0.6703055}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 0}
+        m_Offset: {x: 0.8073325, y: 0.7628592}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0, y: 9}
+        m_Offset: {x: 0.286771, y: 0.65648067}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 9}
+        m_Offset: {x: 0.6799983, y: 0.3782826}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 0.02447458
+    - _Cutoff: 0.7184039
+    - _DetailNormalMapScale: 0.015419927
+    - _DstBlend: 0
+    - _GlossMapScale: 0.99105495
+    - _Glossiness: 0.40951318
+    - _GlossyReflections: 0
+    - _Metallic: 0.037819035
+    - _Mode: 0
+    - _OcclusionStrength: 0.8506024
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.60729355, g: 0.846635, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

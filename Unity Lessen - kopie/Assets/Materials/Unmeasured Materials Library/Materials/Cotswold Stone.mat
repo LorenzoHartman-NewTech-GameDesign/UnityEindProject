@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cotswold Stone
+  m_Shader: {fileID: 4800000, guid: feb3bc85c7b75406d8620ca7f8f65fa7, type: 3}
+  m_ShaderKeywords: _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 9}
+        m_Offset: {x: 0.95215523, y: 0.4498337}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 9}
+        m_Offset: {x: 0.728722, y: 0.8278595}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 9}
+        m_Offset: {x: 0.2617305, y: 0.42460495}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 1}
+        m_Offset: {x: 0.90603185, y: 0.7674172}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 6}
+        m_Offset: {x: 0.6110173, y: 0.8547528}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 6c9931d20b91f41b5b7e54cfc0b6fa23, type: 3}
+        m_Scale: {x: 1, y: 8}
+        m_Offset: {x: 0.785866, y: 0.5150694}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 2, y: 8}
+        m_Offset: {x: 0.4500298, y: 0.065235496}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 0.0025821645
+    - _Cutoff: 0.5975716
+    - _DetailNormalMapScale: -0.00006517632
+    - _DstBlend: 0
+    - _GlossMapScale: 0.9957126
+    - _Glossiness: 0.91266465
+    - _GlossyReflections: 0
+    - _Metallic: 0.8594195
+    - _Mode: 0
+    - _OcclusionStrength: 0.5301183
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 1
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.21403578, g: 1, b: 0.050361037, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

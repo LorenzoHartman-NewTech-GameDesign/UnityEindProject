@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Plastic Wrap
+  m_Shader: {fileID: 4800000, guid: feb3bc85c7b75406d8620ca7f8f65fa7, type: 3}
+  m_ShaderKeywords: _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 55b36af2d696a423f8d910596b9ec7cc, type: 3}
+        m_Scale: {x: 8, y: 8}
+        m_Offset: {x: 0.15696812, y: 0.1490829}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 3, y: 9}
+        m_Offset: {x: 0.41543418, y: 0.8210932}
+    - _DetailMask:
+        m_Texture: {fileID: 2800000, guid: 6c9931d20b91f41b5b7e54cfc0b6fa23, type: 3}
+        m_Scale: {x: 9, y: 1}
+        m_Offset: {x: 0.6977426, y: 0.34220058}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 0}
+        m_Offset: {x: 0.6907263, y: 0.5244208}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 6c9931d20b91f41b5b7e54cfc0b6fa23, type: 3}
+        m_Scale: {x: 5, y: 8}
+        m_Offset: {x: 0.0009652376, y: 0.27439064}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 9}
+        m_Offset: {x: 0.21776891, y: 0.8022686}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 7}
+        m_Offset: {x: 0.6562784, y: 0.95040584}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: -0.00024396369
+    - _Cutoff: 0.34701923
+    - _DetailNormalMapScale: 0.10986562
+    - _DstBlend: 0
+    - _GlossMapScale: 0.36516243
+    - _Glossiness: 0.3695605
+    - _GlossyReflections: 1
+    - _Metallic: 0.5108261
+    - _Mode: 0
+    - _OcclusionStrength: 0.037999038
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.790367, g: 1, b: 0.43761915, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

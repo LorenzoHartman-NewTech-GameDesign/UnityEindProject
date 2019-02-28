@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Kutnohorite
+  m_Shader: {fileID: 4800000, guid: feb3bc85c7b75406d8620ca7f8f65fa7, type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2450
+  stringTagMap:
+    RenderType: TransparentCutout
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 55b36af2d696a423f8d910596b9ec7cc, type: 3}
+        m_Scale: {x: 9, y: 9}
+        m_Offset: {x: 0.17464864, y: 0.81382585}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 1}
+        m_Offset: {x: 0.26510674, y: 0.16960406}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 8}
+        m_Offset: {x: 0.2958228, y: 0.45932978}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 9}
+        m_Offset: {x: 0.08246279, y: 0.744123}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 6c9931d20b91f41b5b7e54cfc0b6fa23, type: 3}
+        m_Scale: {x: 3, y: 9}
+        m_Offset: {x: 0.082648635, y: 0.17495835}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 5}
+        m_Offset: {x: 0.9194045, y: 0.4459762}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 9}
+        m_Offset: {x: 0.59458953, y: 0.19997954}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: -0.00034208797
+    - _Cutoff: 0.6683786
+    - _DetailNormalMapScale: 0.749785
+    - _DstBlend: 0
+    - _GlossMapScale: 0.8598969
+    - _Glossiness: 0.7960657
+    - _GlossyReflections: 1
+    - _Metallic: 0.7732838
+    - _Mode: 0
+    - _OcclusionStrength: 0.162187
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 0
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 0.47523397, b: 0.7753028, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

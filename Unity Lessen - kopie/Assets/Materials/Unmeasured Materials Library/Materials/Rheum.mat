@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Rheum
+  m_Shader: {fileID: 4800000, guid: feb3bc85c7b75406d8620ca7f8f65fa7, type: 3}
+  m_ShaderKeywords: _ALPHABLEND_ON _DETAIL_MULX2 _EMISSION _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 55b36af2d696a423f8d910596b9ec7cc, type: 3}
+        m_Scale: {x: 9, y: 8}
+        m_Offset: {x: 0.72285557, y: 0.31052488}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 0}
+        m_Offset: {x: 0.18079484, y: 0.70601594}
+    - _DetailMask:
+        m_Texture: {fileID: 2800000, guid: 6c9931d20b91f41b5b7e54cfc0b6fa23, type: 3}
+        m_Scale: {x: 1, y: 9}
+        m_Offset: {x: 0.4610631, y: 0.18905711}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 2800000, guid: 55b36af2d696a423f8d910596b9ec7cc, type: 3}
+        m_Scale: {x: 8, y: 8}
+        m_Offset: {x: 0.28747874, y: 0.11302769}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 9}
+        m_Offset: {x: 0.6991056, y: 0.83086514}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 6c9931d20b91f41b5b7e54cfc0b6fa23, type: 3}
+        m_Scale: {x: 9, y: 0}
+        m_Offset: {x: 0.34879547, y: 0.62072855}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 9}
+        m_Offset: {x: 0.78278494, y: 0.24246418}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.3724876, y: 0.13205612}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 0.026087418
+    - _Cutoff: 0.5730294
+    - _DetailNormalMapScale: 0.6740705
+    - _DstBlend: 10
+    - _GlossMapScale: 0.9003581
+    - _Glossiness: 0.36507586
+    - _GlossyReflections: 1
+    - _Metallic: 0.33913082
+    - _Mode: 0
+    - _OcclusionStrength: 0.8780614
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 0
+    - _SrcBlend: 5
+    - _UVSec: 0
+    - _ZWrite: 0
+    m_Colors:
+    - _Color: {r: 0.4091795, g: 0.4378735, b: 1, a: 0.6042563}
+    - _EmissionColor: {r: 0.68717796, g: 0.64972, b: 0.7088019, a: 1}

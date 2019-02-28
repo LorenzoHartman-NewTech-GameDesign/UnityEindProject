@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fustian
+  m_Shader: {fileID: 4800000, guid: feb3bc85c7b75406d8620ca7f8f65fa7, type: 3}
+  m_ShaderKeywords: _EMISSION _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 3, y: 6}
+        m_Offset: {x: 0.31069022, y: 0.058520555}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 0}
+        m_Offset: {x: 0.13719225, y: 0.5224642}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 5, y: 9}
+        m_Offset: {x: 0.638502, y: 0.503591}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 6, y: 3}
+        m_Offset: {x: 0.54657656, y: 0.81469977}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 9}
+        m_Offset: {x: 0.11589074, y: 0.77415967}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 4, y: 9}
+        m_Offset: {x: 0.7953788, y: 0.9706621}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 8}
+        m_Offset: {x: 0.9579234, y: 0.65209997}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 9}
+        m_Offset: {x: 0.8369956, y: 0.2582677}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: -0.0004247632
+    - _Cutoff: 0.5841868
+    - _DetailNormalMapScale: -0.00055778516
+    - _DstBlend: 0
+    - _GlossMapScale: 0.8038342
+    - _Glossiness: 0.2279332
+    - _GlossyReflections: 0
+    - _Metallic: 0.9535749
+    - _Mode: 0
+    - _OcclusionStrength: 0.06904746
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.17027211, g: 0.5769102, b: 1, a: 1}
+    - _EmissionColor: {r: 0.38962516, g: 0.13993007, b: 0.5652084, a: 1}

@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Thorium
+  m_Shader: {fileID: 4800000, guid: feb3bc85c7b75406d8620ca7f8f65fa7, type: 3}
+  m_ShaderKeywords: _EMISSION _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 8}
+        m_Offset: {x: 0.029142857, y: 0.37105685}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0, y: 9}
+        m_Offset: {x: 0.47360033, y: 0.13731301}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 1}
+        m_Offset: {x: 0.72384286, y: 0.99271}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 9}
+        m_Offset: {x: 0.06764138, y: 0.79963255}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 6c9931d20b91f41b5b7e54cfc0b6fa23, type: 3}
+        m_Scale: {x: 7, y: 6}
+        m_Offset: {x: 0.8336202, y: 0.38543636}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 0}
+        m_Offset: {x: 0.19557881, y: 0.28277236}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 9}
+        m_Offset: {x: 0.21759534, y: 0.992532}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.8779533, y: 0.78241706}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 0.9856051
+    - _Cutoff: 0.6346637
+    - _DetailNormalMapScale: -0.00051863235
+    - _DstBlend: 0
+    - _GlossMapScale: 0.86568296
+    - _Glossiness: 0.41918498
+    - _GlossyReflections: 1
+    - _Metallic: 0.6368114
+    - _Mode: 0
+    - _OcclusionStrength: 0.33588412
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.63812035, g: 1, b: 0.38191825, a: 1}
+    - _EmissionColor: {r: 0.29305318, g: 0.12390658, b: 0.10374995, a: 1}

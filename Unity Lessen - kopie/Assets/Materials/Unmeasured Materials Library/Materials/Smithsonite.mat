@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Smithsonite
+  m_Shader: {fileID: 4800000, guid: feb3bc85c7b75406d8620ca7f8f65fa7, type: 3}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 8}
+        m_Offset: {x: 0.5891256, y: 0.10817957}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 8}
+        m_Offset: {x: 0.90382135, y: 0.6992736}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0, y: 7}
+        m_Offset: {x: 0.5208507, y: 0.5226528}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 5, y: 7}
+        m_Offset: {x: 0.44837266, y: 0.7839092}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0, y: 8}
+        m_Offset: {x: 0.4526772, y: 0.57936794}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 9}
+        m_Offset: {x: 0.31145245, y: 0.96272886}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 9}
+        m_Offset: {x: 0.30412716, y: 0.41123813}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 8}
+        m_Offset: {x: 0.5588828, y: 0.4007762}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 0.69515646
+    - _Cutoff: 0.5740286
+    - _DetailNormalMapScale: -0.0002386094
+    - _DstBlend: 0
+    - _GlossMapScale: 0.78591454
+    - _Glossiness: 0.5767247
+    - _GlossyReflections: 1
+    - _Metallic: 0.61767983
+    - _Mode: 0
+    - _OcclusionStrength: 0.97283864
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 1
+    - _SpecularHighlights: 0
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.8989056, g: 0.70476663, b: 1, a: 1}
+    - _EmissionColor: {r: 0.46998703, g: 0.7542068, b: 0.41364017, a: 1}

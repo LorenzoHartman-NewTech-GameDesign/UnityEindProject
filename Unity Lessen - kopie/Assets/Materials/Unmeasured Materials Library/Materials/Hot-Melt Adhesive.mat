@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hot-Melt Adhesive
+  m_Shader: {fileID: 4800000, guid: feb3bc85c7b75406d8620ca7f8f65fa7, type: 3}
+  m_ShaderKeywords: _DETAIL_MULX2 _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 9}
+        m_Offset: {x: 0.05584526, y: 0.60328954}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 2800000, guid: 6c9931d20b91f41b5b7e54cfc0b6fa23, type: 3}
+        m_Scale: {x: 5, y: 9}
+        m_Offset: {x: 0.8495892, y: 0.7324716}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 3}
+        m_Offset: {x: 0.27402633, y: 0.5951069}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 0}
+        m_Offset: {x: 0.41879314, y: 0.24360299}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 9, y: 3}
+        m_Offset: {x: 0.31711012, y: 0.11493373}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 4, y: 8}
+        m_Offset: {x: 0.75928056, y: 0.5355136}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 5, y: 8}
+        m_Offset: {x: 0.2714693, y: 0.2790628}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: -0.00004995946
+    - _Cutoff: 0.5515852
+    - _DetailNormalMapScale: 0.18289492
+    - _DstBlend: 0
+    - _GlossMapScale: 0.9660408
+    - _Glossiness: 0.5987616
+    - _GlossyReflections: 0
+    - _Metallic: 0.90414274
+    - _Mode: 0
+    - _OcclusionStrength: 0.72177774
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.69484746, g: 1, b: 0.74407357, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
