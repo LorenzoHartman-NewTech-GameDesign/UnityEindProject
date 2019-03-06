@@ -44,10 +44,14 @@ public class VelocityGun : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range) && hit.transform.tag == "influenceable")
         {
+            //(Debug Message to check if it actually hit.)
             Debug.Log("Gottem");
 
+            //Sets otherObject to the hit gameobject. 
             otherObject = hit.transform.gameObject;
+            //Sets OtherAnimator to the Animator component we have just received from the raycast hit. 
             otherAnimator = otherObject.GetComponent<Animator>();
+            //Changes the animation speed to a lower value to create the illusion of slowing down. 
             otherAnimator.speed = 0.1f; 
         }
     }
