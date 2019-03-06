@@ -19,7 +19,7 @@ public class NewBehaviourScript : MonoBehaviour
 
         {
 
-            Debug.Log("meme"); 
+            //Insert a debug.log here
         }
 
     }

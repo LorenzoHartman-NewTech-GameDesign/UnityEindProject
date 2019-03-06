@@ -9,19 +9,21 @@ public class PlatformAttach : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject == Player)
+        if (other.tag == "Player")
         {
-            Player.transform.parent = transform; 
-    }
+            other.transform.SetParent(transform,true); 
+        }
 
     }
 
     private void OnTriggerExit(Collider other)
     {
 
-        if (other.gameObject == Player)
+        if (other.tag == "Player")
         {
-            Player.transform.parent = null; }
+            
+            other.transform.parent = null;
+        }
         
     }
 }

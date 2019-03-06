@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fire
   - Targetable
+  - influenceable
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - influenceable
   - Guns
   - 
   - 
