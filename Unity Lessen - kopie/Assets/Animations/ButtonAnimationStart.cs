@@ -5,8 +5,8 @@ using UnityEngine;
 public class ButtonAnimationStart : MonoBehaviour
 {
 
-     public Animator Animator; 
-
+     public Animator Animator;
+    public Transform PlayerTransform; 
 
 
 
@@ -20,11 +20,17 @@ public class ButtonAnimationStart : MonoBehaviour
     void Update()
     {
         
-        if (Input.GetButtonDown("Interact"))
+        if (Input.GetButtonDown("Interact") && Vector3.Distance(transform.position, PlayerTransform.position) < 3f)
         {
+            
+
+
             Animator.Play("Button"); 
         }
     }
+
+    
+
 
 
     void DisableAnimator()

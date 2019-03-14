@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro; 
 
 public class VelocityGun : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class VelocityGun : MonoBehaviour
     public gunType TypeofGun;
     public float waitTime;
     IEnumerator coroutine;
-
+    public TextMeshProUGUI TimeTypeUI; 
 
 
     Animator otherAnimator;
@@ -41,16 +42,22 @@ public class VelocityGun : MonoBehaviour
 
         if (Input.GetButton("Ability1"))
         {
-            TypeofGun = gunType.Slowdown; 
+            TypeofGun = gunType.Slowdown;
+            TimeTypeUI.text = TypeofGun.ToString(); 
+
         }
+
         if (Input.GetButton("Ability2"))
         {
-            TypeofGun = gunType.Increase;
+            TypeofGun = gunType.Stop;
+            TimeTypeUI.text = TypeofGun.ToString();
         }
         if (Input.GetButton("Ability3"))
         {
-            TypeofGun = gunType.Stop;
+            TypeofGun = gunType.Increase;
+            TimeTypeUI.text = TypeofGun.ToString();
         }
+
 
 
     }
