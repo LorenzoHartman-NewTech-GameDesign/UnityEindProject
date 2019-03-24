@@ -67,17 +67,19 @@ void Shoot()
         RaycastHit hit;
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range) )
         {
+            
             Transform otherObject = hit.transform;
             while (otherObject.tag != "influenceable" )
             {
-                if(otherObject.parent == null) { return; }
+                Debug.Log("Gottem" + otherObject.name);
+                if (otherObject.parent == null) { return; }
                 otherObject = otherObject.parent;
             }
 
             if (otherObject.GetComponent<Animator>() == null) return;
 
             //(Debug Message to check if it actually hit.)
-            Debug.Log("Gottem"+otherObject.name);
+            
 
             //Sets otherObject to the hit gameobject. 
             
