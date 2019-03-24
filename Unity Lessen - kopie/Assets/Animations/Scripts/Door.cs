@@ -9,23 +9,25 @@ public class Door : MonoBehaviour
 
 {
 
-    public GameObject DoorObject;
-    Animator otherAnimator; 
+    public GameObject AnimatedObject;
+    Animator otherAnimator;
+    public string Animation1;
+    public string Animation2; 
 
 
-    void OpenDoor()
+    void PlayAnimation1()
     {
-        otherAnimator = DoorObject.GetComponent<Animator>();
+        otherAnimator = AnimatedObject.GetComponent<Animator>();
         otherAnimator.gameObject.GetComponent<Animator>().enabled = true;
-        otherAnimator.Play("OpenDoor");
+        otherAnimator.Play(Animation1);
     }
 
 
-    void CloseDoor()
+    void PlayAnimation2()
     {
-        otherAnimator = DoorObject.GetComponent<Animator>();
+        otherAnimator = AnimatedObject.GetComponent<Animator>();
         otherAnimator.gameObject.GetComponent<Animator>().enabled = true;
-        otherAnimator.Play("CloseDoor");
+        otherAnimator.Play(Animation2);
     }
 
     //// Start is called before the first frame update
