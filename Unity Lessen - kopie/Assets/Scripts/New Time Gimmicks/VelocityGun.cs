@@ -91,40 +91,51 @@ void Shoot()
             {
                 case gunType.Slowdown:
                     otherAnimator.speed = 0.1f;
+                    Invoke("ResetSpeed", waitTime);
                     break;
 
                 case gunType.Increase:
                     otherAnimator.speed = 2f;
+                    Invoke("ResetSpeed", waitTime);
                     break;
 
                 case gunType.Stop:
                     otherAnimator.speed = 0f;
+                    Invoke("ResetSpeed", waitTime);
                     break; 
             }
 
-            //Resets animator speed
-            StopCoroutine("ResetSpeed"); 
+           
 
-            coroutine = ResetSpeed(otherAnimator);
+
+
+            ////Resets animator speed
+            //StopCoroutine("ResetSpeed"); 
+
+            //coroutine = ResetSpeed(otherAnimator);
             
-            StartCoroutine(coroutine); 
+            //StartCoroutine(coroutine); 
 
-
+    
         }
 
 
     }
 
-    
-
-    private IEnumerator ResetSpeed(Animator am)
+    void ResetSpeed()
     {
-        yield return new WaitForSeconds(waitTime);
-        am.speed = 1f;
+        otherAnimator.speed = 1f;
     }
+
+
+    //private IEnumerator ResetSpeed(Animator am)
+    //{
+    //    yield return new WaitForSeconds(waitTime);
+    //    am.speed = 1f;
+}
     
 
 
 
 
-}
+
