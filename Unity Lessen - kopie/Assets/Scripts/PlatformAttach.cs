@@ -11,7 +11,8 @@ public class PlatformAttach : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            other.transform.SetParent(transform,true); 
+            other.transform.SetParent(transform,true);
+       
         }
 
     }
