@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro; 
+using TMPro;
 
 public class VelocityGun : MonoBehaviour
 {
@@ -12,11 +12,19 @@ public class VelocityGun : MonoBehaviour
     public float fireRate = 15f;
     private float nextTimeToFire = 0f;
     public Animation anim;
-    public enum gunType {Slowdown, Increase, Stop};
+    public enum gunType { Slowdown, Increase, Stop };
     public gunType TypeofGun;
     public float waitTime;
     IEnumerator coroutine;
-    public TextMeshProUGUI TimeTypeUI; 
+    public TextMeshProUGUI TimeTypeUI;
+    public Shader Normal;
+    public Shader Influenced;
+    public Shader ObjectShader;
+    //Here we store the last hit Animators. And the time passed since we activated it. 
+    Animator[] animatorList = new Animator[10];
+    float[] timeList = new float[10]; 
+
+
 
 
     Animator otherAnimator;
@@ -43,8 +51,7 @@ public class VelocityGun : MonoBehaviour
         if (Input.GetButton("Ability1"))
         {
             TypeofGun = gunType.Slowdown;
-            TimeTypeUI.text = TypeofGun.ToString(); 
-
+            TimeTypeUI.text = TypeofGun.ToString();
         }
 
         if (Input.GetButton("Ability2"))
@@ -57,85 +64,105 @@ public class VelocityGun : MonoBehaviour
             TypeofGun = gunType.Increase;
             TimeTypeUI.text = TypeofGun.ToString();
         }
-
-
-
+        
+        for (int i = 0; i < timeList.Length; i++) {
+            
+            
+            if (timeList[i] > 0 && Time.time  > timeList[i] + waitTime)
+            {
+                animatorList[i].speed = 1;
+                timeList[i] = 0f;
+                animatorList[i] = null;
+            }
+        }
     }
 
-void Shoot()
+    void Shoot()
     {
         RaycastHit hit;
-        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range) )
+        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
-            
+
             Transform otherObject = hit.transform;
-            while (otherObject.tag != "influenceable" )
+            while (otherObject.tag != "influenceable")
             {
-                Debug.Log("Gottem" + otherObject.name);
+                Debug.Log("Gottem", otherObject);
                 if (otherObject.parent == null) { return; }
                 otherObject = otherObject.parent;
+
             }
 
             if (otherObject.GetComponent<Animator>() == null) return;
 
-            //(Debug Message to check if it actually hit.)
-            
 
-            //Sets otherObject to the hit gameobject. 
-            
+
+
+
+
             //Sets OtherAnimator to the Animator component we have just received from the raycast hit. 
             otherAnimator = otherObject.GetComponent<Animator>();
-            //Changes the animation speed to a lower value to create the illusion of slowing down. 
 
-            switch(TypeofGun)
+            ObjectShader = otherObject.GetComponent<Shader>();
+
+
+            switch (TypeofGun)
             {
                 case gunType.Slowdown:
                     otherAnimator.speed = 0.1f;
-                    Invoke("ResetSpeed", waitTime);
+
+                    ObjectShader = Influenced;
+                    //Invoke("ResetSpeed", waitTime);
                     break;
 
                 case gunType.Increase:
                     otherAnimator.speed = 2f;
-                    Invoke("ResetSpeed", waitTime);
+                    ObjectShader = Influenced;
+                    //Invoke("ResetSpeed", waitTime);
                     break;
 
                 case gunType.Stop:
                     otherAnimator.speed = 0f;
-                    Invoke("ResetSpeed", waitTime);
-                    break; 
+                    ObjectShader = Influenced;
+                    //Invoke("ResetSpeed", waitTime);
+                    break;
             }
 
-           
 
+            bool alreadyInList = false;
 
+            for (int i = 0; i < animatorList.Length; i++)
+            {
+                if (animatorList[i] == otherAnimator)
+                {
+                    alreadyInList = true;
+                    break;
+                }
+            }
 
-            ////Resets animator speed
-            //StopCoroutine("ResetSpeed"); 
+            if (!alreadyInList)
+            {
+                for (int i = 0; i < timeList.Length; i++)
+                {
 
-            //coroutine = ResetSpeed(otherAnimator);
+                    if (timeList[i] == 0f)
+                    {
+                        animatorList[i] = otherAnimator;
+                        timeList[i] = Time.time;
+                        break;
+                    }
+                }
+            }
             
-            //StartCoroutine(coroutine); 
 
-    
+
         }
 
 
     }
 
-    void ResetSpeed()
-    {
-        otherAnimator.speed = 1f;
-    }
 
 
-    //private IEnumerator ResetSpeed(Animator am)
-    //{
-    //    yield return new WaitForSeconds(waitTime);
-    //    am.speed = 1f;
+
+
 }
-    
-
-
-
-
 

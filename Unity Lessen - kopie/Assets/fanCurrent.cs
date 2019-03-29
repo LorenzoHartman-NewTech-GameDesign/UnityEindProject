@@ -4,38 +4,37 @@ using UnityEngine;
 
 public class fanCurrent : MonoBehaviour
 {
-    public Transform player;
+    public Rigidbody player;
+    public float force; 
     public Animator animator;
     public enum AirCurrentStrenght { slowed, normal, stopped,sped_up};
-    public AirCurrentStrenght _AirCurrentStrenght; 
+    public AirCurrentStrenght _AirCurrentStrenght;
+    public Camera Camera; 
 
 
-
+    private void Start()
+    {
+      
+    }
 
     void OnTriggerStay(Collider other)
     {
-        player.transform.position = player.transform.position + new Vector3(0, 0.5f, 0); 
+
+       
+        player.AddForce(transform.up * 100);
+        player.isKinematic = false;
+        player.detectCollisions = true;
+        Camera.enabled = false; 
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+
+
+        player.isKinematic = true;
+        player.detectCollisions = true;
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if (animator.speed == 1f)
-        {
-
-
-
-        }
-
-
-
-
-
-
-
-
-
-
-
-}
+  
 }
