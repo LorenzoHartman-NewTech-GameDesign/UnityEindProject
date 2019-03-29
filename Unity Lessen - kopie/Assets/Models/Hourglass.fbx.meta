@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: 80b54e1d3584d37428daed36999b2ac0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: AmpulhetaGroup
+    100002: ampulhetaVidroDentro
+    100004: areia_down
+    100006: areia_top
+    100008: areiaEmiter
+    100010: areiaInstancer
+    100012: baseDown
+    100014: baseTop
+    100016: camera1
+    100018: cameraGroup
+    100020: gravityField1
+    100022: //RootNode
+    100024: instancer1
+    100026: masterAmpulheta_ctrl
+    100028: particle1
+    100030: peh01
+    100032: peh02
+    100034: peh03
+    100036: pointLight1
+    100038: pPlane1
+    100040: sunDirection
+    100042: targets
+    100044: vidroPartedeFora
+    400000: AmpulhetaGroup
+    400002: ampulhetaVidroDentro
+    400004: areia_down
+    400006: areia_top
+    400008: areiaEmiter
+    400010: areiaInstancer
+    400012: baseDown
+    400014: baseTop
+    400016: camera1
+    400018: cameraGroup
+    400020: gravityField1
+    400022: //RootNode
+    400024: instancer1
+    400026: masterAmpulheta_ctrl
+    400028: particle1
+    400030: peh01
+    400032: peh02
+    400034: peh03
+    400036: pointLight1
+    400038: pPlane1
+    400040: sunDirection
+    400042: targets
+    400044: vidroPartedeFora
+    2000000: camera1
+    2100000: areia
+    2100002: vidro
+    2100004: lambert3
+    2300000: ampulhetaVidroDentro
+    2300002: pPlane1
+    3300000: ampulhetaVidroDentro
+    3300002: pPlane1
+    4300000: areia_top
+    4300002: areia_down
+    4300004: ampulhetaVidroDentro
+    4300006: pPlane1
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: pointLight1
+    10800002: sunDirection
+    13700000: areia_down
+    13700002: areia_top
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
