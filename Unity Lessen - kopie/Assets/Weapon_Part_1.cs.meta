@@ -3,7 +3,17 @@ guid: 6f45cd85c72493947b0cfa7cba63dc57
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - player: {instanceID: 0}
+  - weaponHolder: {instanceID: 0}
+  - weaponOnAltar: {instanceID: 0}
+  - mysticWeaponEffect: {instanceID: 0}
+  - cameraShakeScript: {instanceID: 0}
+  - altaar1: {instanceID: 0}
+  - altaar2: {instanceID: 0}
+  - playerAudio: {instanceID: 0}
+  - epicMusic: {fileID: 8300000, guid: 016e366150993284ba60fd6b5b9bf087, type: 3}
+  - text: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
